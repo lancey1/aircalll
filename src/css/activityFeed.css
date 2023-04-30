@@ -1,0 +1,152 @@
+.callListHeader {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-top: 14px;
+  width: 100%;
+  font-size: 2em;
+  padding-bottom: 0.25em;
+  border-radius: 3px;
+}
+
+.callListHeader span {
+  text-align: center;
+  width: 28%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.archived_inactive {
+  cursor: pointer;
+}
+
+.listContainer {
+  max-height: 395px;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.allCallList_ {
+  display: flex;
+  transition: transform 0.3s ease-out;
+}
+
+.allCallList_.slide-right {
+  overflow: none;
+  transform: translateX(100%);
+}
+
+.archivedList_ {
+  display: flex;
+  transition: transform 0.3s ease-out;
+  transform: translateX(-100%);
+}
+
+.archivedList_.slide-left {
+  overflow: none;
+  transform: translateX(0%);
+}
+
+.listContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.allCalls_active {
+  background-color: #4267b2 !important;
+  color: #f3f3f3 !important;
+  font-weight: bold;
+  transition: background 0.5s ease-out;
+}
+
+.archived_active {
+  background-color: #d00412 !important;
+  color: #f3f3f3 !important;
+  font-weight: bold;
+  transition: background 0.5s ease-out;
+}
+
+.groupedCalls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.groupDate {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.zeroArchivedCalls{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 70px;
+}
+
+.zeroIcon{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+
+.allbtn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.allbtn:active {
+  background-color: #777;
+  transform: translateY(1px);
+}
+
+.allbtn:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.allbtn.archived {
+  background-color: #d00412;
+}
+
+.allbtn.unarchived {
+  background-color: #4267b2;
+}
+
+.groupedCalls {
+  margin-bottom: 1.5em;
+}
+.groupedCalls:last-of-type {
+  margin-bottom: 2.5em;
+}
+
+.datedCalls{
+  width: 100%;
+  border: 2.5px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+

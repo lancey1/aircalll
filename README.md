@@ -2,12 +2,10 @@
 
 The goal of this test is to make you code a small ReactJS app. We have prepared a skeleton app for you, but please change whatever you want (CSS files, HTML structure, JS structure, etc).
 
-The app will have the following features:
+The app will have two different components:
 - **Activity Feed** - simple list of calls
 - **Activity Detail** - detail of a call
 - **Archive** - the final user should be able to archive (and unarchive) a call. Archived calls will no longer be displayed on the Activity Feed and should have a separate Archived Tab.
-- A button to archive all calls in the activity feed
-- A button to unarchive all calls in the archived calls tab
 
 Show us what you can do in 24 hours. You will be assessed on the following parameters: 
 - Focus on design (Pay attention to the UI/UX and transitions)
@@ -37,9 +35,8 @@ yarn start
 
 ### Routes
 
-Here is the API address: https://cerulean-marlin-wig.cyclic.app/ <br>
-If you run into a CORS error, please prepend the base URL with this CORS Anywhere server URL: https://charming-bat-singlet.cyclic.app/ <br>
-The prepended base URL will look like this https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/
+Here is the API address: https://cerulean-marlin-wig.cyclic.app/
+If you run into a CORS error, please pre-owned the base URL with this CORS Anywhere server URL: https://charming-bat-singlet.cyclic.app/
 
 The API is hosted on a free server, which is why the first time you call the API, it will throw an error. The server goes to sleep if there hasn't been any activity for a while, but after 30-60 seconds of the first call, it should work as expected. Please reach out to us in case it doesn't.
 

@@ -1,0 +1,66 @@
+.detailedCall {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top:15px;
+  font-size: 2.5em;
+}
+.detailedCall div {
+  padding: 0.5rem;
+}
+.detailedCall img {
+  height: 5rem;
+  width: 5rem;
+}
+.callDate {
+  width: min-content;
+  justify-self: center;
+  align-self: center;
+}
+
+.direction {
+  text-transform: capitalize;
+}
+
+
+
+.archiveButton {
+  margin-top: 1rem;
+  position: relative;
+  border-radius: 5px;
+  height: 4rem;
+  width: 9rem;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #d00412;
+  color: white;
+  font-size: large;
+}
+
+.archiveButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #d00412;
+  border: 1px solid #d00412;
+}
+
+.unarchiveButton {
+  margin-top: 1rem;
+  position: relative;
+  border-radius: 5px;
+  height: 4rem;
+  width: 9rem;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: #4267b2;
+  color: white;
+  font-size: large;
+}
+
+.unarchiveButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #4267b2;
+  border: 1px solid #4267b2;
+}
